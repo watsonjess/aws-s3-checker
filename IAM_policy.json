@@ -5,7 +5,8 @@
             "Sid": "S3SecurityChecker",
             "Effect": "Allow",
             "Action": [
-                "s3:ListAllMyBuckets"
+                "s3:ListAllMyBuckets",
+                "s3:GetBucketPublicAccessBlock"
             ],
             "Resource": "*"
         }
